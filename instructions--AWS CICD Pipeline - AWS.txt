@@ -287,7 +287,7 @@ Navigate to Systems Manager --> Parameter stores in the Application tools sectio
 	Tier = standard
 	Type = string
 	Data type = text
-	Value = dev-db-instance.cdbmlufgqkjd.ap-south-1.rds.amazonaws.com
+	Value = dev-db-instance.cdbmlufgqkjd.ap-south-1.rds.amazonaws.com  ( your mysql db's DNS name ) 
 
 	create parameter
  	Name = /nodeapp/db/name
