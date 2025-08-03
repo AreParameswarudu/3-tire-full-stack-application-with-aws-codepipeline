@@ -140,7 +140,8 @@ appsec.yml is typically used for application related, install, move, copy etc in
 Endpoint = dev-db-instance.cdbmlufgqkjd.ap-south-1.rds.amazonaws.com
 Username = admin
 Password = root123456
-   
+
+
 5. Connect to Bastion through MobaXterm and setup databases and tables
 =============================================================================
 
