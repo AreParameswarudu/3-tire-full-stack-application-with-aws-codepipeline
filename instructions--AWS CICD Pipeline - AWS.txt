@@ -101,6 +101,7 @@ appsec.yml is typically used for application related, install, move, copy etc in
    TE = CodeBuild 
    Permissions = AmazonS3FullAccess(for artifacts), AWSCodeBuildAdminAccess, AmazonSSMReadOnlyAccess(for paramter-store to store creds) , Cloudwatchlogsfullaccess
    Name = 3-tier-codebuild-role
+	NOTE!! --> during pipeline creation, it asked me for the permission of {"ssm:GetParameters"} 
 
 --> For AWS-CodeDeploy
 
