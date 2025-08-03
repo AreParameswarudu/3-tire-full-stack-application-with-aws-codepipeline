@@ -37,7 +37,9 @@ appsec.yml is typically used for application related, install, move, copy etc in
    Name = 3-tier-project
    CIDR =  192.168.0.0/16
    Tenancy = Default
-   VPC actions --> Enable DNS hostnames 
+   Create VPC
+
+   VPC actions --> vpc settings  --> Enable DNS hostnames.
 
 --> Create IGW(3-tier-project-IGW) and attach to VPC
 
