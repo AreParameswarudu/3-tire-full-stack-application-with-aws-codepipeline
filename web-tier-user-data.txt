@@ -12,7 +12,7 @@ sudo systemctl enable nginx
 # Define variables
 APP_TIER_ALB_URL="http://internal-T-app-tier-internal-alb-638410399.ap-south-1.elb.amazonaws.com"  # Replace with your alb endpoint
 NGINX_CONF="/etc/nginx/nginx.conf"
-SERVER_NAME="project.paramworld.click"  # Replace with your actual domain name
+SERVER_NAME="project.param-world.click"  # Replace with your actual domain name
 
 # Backup existing NGINX configuration
 sudo cp $NGINX_CONF ${NGINX_CONF}.bak
