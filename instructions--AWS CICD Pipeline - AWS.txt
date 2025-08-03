@@ -280,7 +280,7 @@ Go to code --> backend --> buildspec --> we need to create 5 variables
     DB_NAME: "/nodeapp/db/name"
 
 
-Navigate to Systems Manager --> Parameter stores
+Navigate to Systems Manager --> Parameter stores in the Application tools section 
 
 	create parameter
  	Name = /nodeapp/db/hostname
